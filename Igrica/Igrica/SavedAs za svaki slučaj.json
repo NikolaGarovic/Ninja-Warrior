@@ -1,0 +1,2707 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "a0cbf8dd-c86f-4062-ad42-aabfc9b9d8d2",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "The lost samurai",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Attack1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Attack2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Death.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Death.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Fall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Run.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Run.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero 2/Sprites/Take hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero 2\\Sprites\\Take hit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_005.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_005.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_006.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_007.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_007.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Odmor/image_part_008.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Odmor\\image_part_008.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_005.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_005.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 1/image_part_006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 1\\image_part_006.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_005.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_005.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/napad 2/image_part_006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\napad 2\\image_part_006.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/pad/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\pad\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/pad/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\pad\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca- bela silueta/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca- bela silueta\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca- bela silueta/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca- bela silueta\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca- bela silueta/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca- bela silueta\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/primanje udarca- bela silueta/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\primanje udarca- bela silueta\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/skok/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\skok\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/skok/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\skok\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_005.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_005.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_006.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_007.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_007.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/trcanje/image_part_008.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\trcanje\\image_part_008.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_001.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_001.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_002.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_002.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_003.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_003.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_004.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_004.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_005.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_005.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Martial Hero/Sprites/Smrt/image_part_006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Martial Hero\\Sprites\\Smrt\\image_part_006.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mali samuraj/tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mali samuraj\\tile023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oak_woods_v1.0/oak_woods_tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oak_woods_v1.0\\oak_woods_tileset.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oak_woods_v1.0/background/background_layer_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oak_woods_v1.0\\background\\background_layer_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oak_woods_v1.0/character/char_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oak_woods_v1.0\\character\\char_blue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mossy Tileset/Mossy - FloatingPlatforms.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mossy Tileset\\Mossy - FloatingPlatforms.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oak_woods_v1.0/decorations/shop_anim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oak_woods_v1.0\\decorations\\shop_anim.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stringstar/ezgif.com-gif-maker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stringstar\\ezgif.com-gif-maker.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objekti/ezgif.com-gif-maker (10).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objekti\\ezgif.com-gif-maker (10).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objekti/ezgif.com-gif-maker (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objekti\\ezgif.com-gif-maker (5).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objekti/ezgif.com-gif-maker (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objekti\\ezgif.com-gif-maker (7).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objekti/ezgif.com-gif-maker (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objekti\\ezgif.com-gif-maker (3).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Attack__009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Attack__009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Climb_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Climb_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Dead__009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Dead__009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Idle__009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Idle__009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Jump__009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Jump__009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Glide_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Glide_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "png/Run__009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "png\\Run__009.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.46999999999999975,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "NewTiledSprite",
+          "persistentUuid": "88cf3670-4b1a-42ba-93f4-80bea1ff6ead",
+          "width": 1184,
+          "x": -416,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "NewTiledSprite",
+          "persistentUuid": "91987ceb-2ee8-4c63-ad4a-5d2863e7e549",
+          "width": 242,
+          "x": 366,
+          "y": 302,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "NewTiledSprite",
+          "persistentUuid": "62fa2a5f-b31f-4f46-926b-db108b27721d",
+          "width": 146,
+          "x": 622,
+          "y": 206,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "merdevine",
+          "persistentUuid": "01f67530-aa37-48af-a848-397159b44d2c",
+          "width": 32,
+          "x": 704,
+          "y": 224,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "NewTiledSprite",
+          "persistentUuid": "48762e3d-aa21-4d40-a23e-97dbabf19ac9",
+          "width": 544,
+          "x": -384,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "merdevine",
+          "persistentUuid": "e0a32ca4-0f28-43af-9311-1cc3a8b8feb5",
+          "width": 32,
+          "x": -192,
+          "y": 192,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "locked": false,
+          "name": "SkrivenaPlatforma",
+          "persistentUuid": "28d56ee8-984f-4155-bb20-f18a80fea0ff",
+          "width": 1184,
+          "x": -421,
+          "y": 438,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 7,
+          "layer": "",
+          "locked": false,
+          "name": "SkrivenaPlatforma",
+          "persistentUuid": "ccf6a164-887a-49a6-a2c7-6d461d609b3a",
+          "width": 540,
+          "x": -383,
+          "y": 197,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 7,
+          "layer": "",
+          "locked": false,
+          "name": "SkrivenaPlatforma",
+          "persistentUuid": "57193f7f-4dc2-4b60-b894-b72b678fb4c4",
+          "width": 244,
+          "x": 363,
+          "y": 307,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 6,
+          "layer": "",
+          "locked": false,
+          "name": "SkrivenaPlatforma",
+          "persistentUuid": "6edadf3a-b46f-4a2c-90dc-f3b4255622dd",
+          "width": 164,
+          "x": 607,
+          "y": 212,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 87,
+          "layer": "",
+          "locked": false,
+          "name": "Ninja",
+          "persistentUuid": "d8586800-df5b-4358-8c63-02bd58612ddc",
+          "width": 98,
+          "x": 225,
+          "y": 156,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Samuraj",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": true,
+              "xGrabTolerance": 0,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Stajanje",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hodanje",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Napad",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile012.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile013.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile014.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile015.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile016.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile017.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Umiranje",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile018.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile019.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile020.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile021.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile022.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mali samuraj\\tile023.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 18,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "objekti\\ezgif.com-gif-maker (7).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 18,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "merdevine",
+          "tags": "",
+          "texture": "objekti\\ezgif.com-gif-maker (3).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "SkrivenaPlatforma",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "objekti\\ezgif.com-gif-maker (5).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ninja",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Bleja",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Idle__009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "png\\Run__009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
